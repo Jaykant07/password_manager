@@ -23,7 +23,12 @@ function Navbar() {
         </li>
       </ul> */}
 
-      <button className="bg-slate-700 hover:bg-blue-700 rounded-full flex justify-center items-center px-2 py-1 mr-4 sm:mr-10 ring-white ring-1 text-white">
+      <button
+        className="bg-slate-700 hover:bg-blue-700 rounded-full flex justify-center items-center px-2 py-1 mr-4 sm:mr-10 ring-white ring-1 text-white"
+        onClick={() =>
+          window.open("https://github.com/Jaykant07/password_manager", "_blank")
+        }
+      >
         <img
           src="/icons/github-sign.png"
           alt="github"
